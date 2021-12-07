@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="当你的兄弟有困难时怎么办？那当然是抄起键盘上了。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="不完美的紧急需求（上篇）">
+<meta property="og:url" content="https://biobrick.github.io/2021/12/07/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%B4%A7%E6%80%A5%E9%9C%80%E6%B1%82%EF%BC%88%E4%B8%8A%E7%AF%87%EF%BC%89/">
+<meta property="og:site_name" content="Bio Harbor">
+<meta property="og:description" content="当你的兄弟有困难时怎么办？那当然是抄起键盘上了。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-12-07T00:56:10.000Z">
+<meta property="article:modified_time" content="2021-12-07T19:23:59.499Z">
+<meta property="article:author" content="Chong Yin">
+<meta name="twitter:card" content="summary"><title>不完美的紧急需求（上篇） | Bio Harbor</title><link ref="canonical" href="https://biobrick.github.io/2021/12/07/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%B4%A7%E6%80%A5%E9%9C%80%E6%B1%82%EF%BC%88%E4%B8%8A%E7%AF%87%EF%BC%89/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":true,"scrollDownIcon":false},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"复制","copySuccess":"复制成功","copyError":"复制失败"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Bio Harbor</div><div class="header-banner-info__subtitle"></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">不完美的紧急需求（上篇）</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2021-12-07</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2021-12-08</span></span></div></header><div class="post-body"><p>昨天从志强老哥那里接到了一个小的爬虫需求。</p>
+<p>说是小需求，是还是有点虚的，然后，在我面试完，吃完饭，锻炼完，摸鱼完之后，我终于打开了宇宙第一IDE vscode，新建文件夹了。</p>
+<p>在做了在做了.jpg</p>
+<p>需求要点有两个：</p>
+<p>1.根据wos上的检索结果下载paper的本体（pdf），并按照文献的顺序进行命名。</p>
+<p>2.按照一定的要求，获取paper的信息，特别是摘要，然后合并成一个word的报告。</p>
+<p>首先，需求明确，第一个需求</p>
+<ol>
+<li><p>“wos的检索结果”长什么样</p>
+</li>
+<li><p>利用什么东西下载文献</p>
+</li>
+<li><p>怎么下载，怎么批量下载</p>
+</li>
+<li><p>异常处理，下载不下来，访问不到等怎么处理</p>
+</li>
+</ol>
+<p>第二个需求：</p>
+<ol>
+<li><p>paper的哪些信息</p>
+</li>
+<li><p>从哪里获取paper的这些信息</p>
+</li>
+<li><p>报告的模板是什么样的</p>
+</li>
+<li><p>怎么生成结果信息，又怎么从网页信息做成报告文档？</p>
+</li>
+</ol>
+<p>首先，先看最原始的数据，wos的检索结果，这里给出我删掉了筛选条件后的结果表：</p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th>number</th>
+<th>PMID</th>
+<th>Pubmed</th>
+<th>title</th>
+<th>authors</th>
+<th>Journal</th>
+<th>year</th>
+<th>DOI</th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table></div>
+<p>字段太长了就不展示，但是目前，从里面我们知道了一件事。</p>
+<p>这里面没有我们最想要的下载链接，由于访问权限问题，wos能否导出下载连接我也无法确认，但是，至少这里面还有一个东西能实现这件事。</p>
+<p>DOI号，理论上，通过这个编号，我们就一定能找到这篇文章，但是显然，杂志社千千万，我们不可能还要去各个杂志社的网站去下载pdf，那显然太复杂了。</p>
+<p>所以我准备利用sci-hub，或者pubmed，两相权衡，我决定用sci-hub</p>
+<p>这里就能看出sci-hub设计的强大了：</p>
+<ol>
+<li><p>如果一个doi在sci-hub里没有，会直接返回无响应的状态码，这样我们就能够非常方便地用try…catch来控制在无文献时候的处理；</p>
+</li>
+<li><p>它没有多余的动态跳转，所有能下载的文献链接格式统一，相比之下，虽然pubmed访问文献的链接是统一的，但是下载仍然采用了动态生成的pdf链接，这对于批量下载极为不利，除非我们实现准备了杂志社的下载页面对照表（貌似这可以做啊）</p>
+</li>
+<li><p>它不需要什么特殊的访问权限，只要能访问互联网，而且不要大批量并发去抓取文献（类似ddos），基本都能够从上面下载文献，由此可见，这才是真正的remove barriers….相比之下NCBI这些都弱爆了…</p>
+</li>
+</ol>
+<p>虽然但是，我也发现，访问统一的NCBI-Pubmed页面，居然有我们需要的Abstract字段….</p>
+<p>那么第一个需求的基本流程应该就厘清楚了：</p>
+<p>使用sci-hub作为下载服务器-利用doi获得完整的下载链接-下载pdf。</p>
+<p>首先目前可用的sci-hub地址需要自行查找，我这边貌似用的是sci-hub.st；</p>
+<p>其二，需要观察sci-hub下载链接是真么样的，一个典型的例子：</p>
+<p><span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://sci-hub.yncjkj.com/10.1007/s00204-016-1824-6#" >https://sci-hub.yncjkj.com/10.1007/s00204-016-1824-6#</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>这里能很简单看出组成：</p>
+<p>sci-hub-url+doi+”#”</p>
+<p>这就非常合理了。我们能够用字符串的拼接很容易地将所有doi编号组合成下载地址；</p>
+<p>其三，怎么访问这个地址，能够拿到得到web访问的返回，也就是pdf？那简单，在拼接好了完整的下载地址之后，肯定是requests.get即可.</p>
+<p>这里介绍一个简单的小工具postman，可以很容易地看到返回的是什么。</p>
+<p>那么我们把上面那个链接用get方法送过去，看看返回什么。</p>
+<p>首先，最重要的，<strong>status code</strong>，由于上面的链接是已经确认sci-hub中存在的paper，所以status=200，这也是通用的成功get的返回状态。</p>
+<p>其次，我们得到了一个看上去像是文本文档的东西，其实就是html页面了，这个页面如果由浏览器来渲染，那就是我们常见的网页，但这里我们不关心页面，我们只关心信息。</p>
+<p>那么问题来了，为什么不是直接返回一个pdf文件？如果上面那个是下载链接，应该直接返回一个pdf文件不是么，但为什么仍然是一个html页面？因此，上面那个链接，只是能够访问到包含了真实下载链接在哪的一个网页，我们得自己找到真正的下载链接在哪里。</p>
+<p>根据pastman返回的网页，按照最常见的想法，我们最后下载的东西是pdf，那么无论是html标签，或者是下载链接，里面肯定是带了pdf三个词的，所以直接全局搜索，搜索得到了两个：</p>
+<figure class="highlight html"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;buttons&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">onclick</span> = <span class="string">&quot;location.href=&#x27;https://twin.sci-hub.st/6037/d05ae80fb1486c3afcf9845f6ddf90f2/pendse2016.pdf?download=true&#x27;&quot;</span>&gt;</span>↓ 下載<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"></span><br><span class="line">...</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;article&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">embed</span> <span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span></span></span><br><span class="line"><span class="tag"><span class="attr">src</span>=<span class="string">&quot;https://twin.sci-hub.st/6037/d05ae80fb1486c3afcf9845f6ddf90f2/pendse2016.pdf#navpanes=0&amp;view=FitH&quot;</span></span></span><br><span class="line"><span class="tag"><span class="attr">id</span>=<span class="string">&quot;pdf&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">embed</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
+
+<p>这两个长得都挺像下载链接，那么直接用postman再get一下就行了，最后发现第二个是真正的下载链接，只需要对它进行get方法，就能直接收到pdf文件，那么基本锁定了我们的目标，那么我们只需要根据它的div或者字段拿到就行，注意看这里这个字段是包裹在什么html标签中，往外看一层，它的标签是：</p>
+<figure class="highlight html"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;article&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">embed</span></span></span><br><span class="line"><span class="tag"><span class="attr">type</span>=<span class="string">&quot;application/pdf&quot;</span></span></span><br><span class="line"><span class="tag"><span class="attr">src</span> = <span class="string">urllink</span></span></span><br><span class="line"><span class="tag"><span class="attr">id</span> = <span class="string">&quot;pdf&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">embed</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
+
+<p>那么很清楚的，这里是包在id为article的css层（或者干脆点就叫DIV元素）里面，里面又有一个类型为type，文本内容为src，id为pdf的css嵌入对象，我们就是要拿到这个嵌入对象，既然说了这是css嵌入层，那么我们就可以用css嵌入层选取，然后构建下载链接的对象，再用get进行请求就能下载到pdf的二进制文件，然后开一个文件写进去就行，那么综上，整个代码应该差不多是这个样子:</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line"></span><br><span class="line">path = <span class="string">&quot;./input/paperlist1&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> os.path.exists(path) == <span class="literal">False</span>:</span><br><span class="line">    os.mkdir(path)  <span class="comment">#创建保存下载文章的文件夹</span></span><br><span class="line"></span><br><span class="line">f = <span class="built_in">open</span>(<span class="string">&quot;./input/paperlist1/doi.txt&quot;</span>, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>)  <span class="comment">#存放DOI码的.txt文件中，每行存放一个文献的DOI码，完毕须换行（最后一个也须换行）</span></span><br><span class="line"></span><br><span class="line">head = &#123;\</span><br><span class="line">            <span class="string">&#x27;user-agent&#x27;</span>: <span class="string">&#x27;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36&#x27;</span>\</span><br><span class="line">            &#125;  <span class="comment">#防止HTTP403错误</span></span><br><span class="line"><span class="keyword">for</span> line <span class="keyword">in</span> f.readlines():</span><br><span class="line">    line = line[:-<span class="number">1</span>] <span class="comment">#去换行符</span></span><br><span class="line">    url = <span class="string">&quot;https://sci-hub.st/&quot;</span> + line </span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        download_url = <span class="string">&quot;&quot;</span> </span><br><span class="line">        r = requests.get(url, headers = head)</span><br><span class="line">        r.raise_for_status() <span class="comment">#如果这里status出现问题就直接跳走了，一般是doi不存在。</span></span><br><span class="line">        r.encoding = r.apparent_encoding</span><br><span class="line">        soup = BeautifulSoup(r.text, <span class="string">&quot;html.parser&quot;</span>)</span><br><span class="line">        <span class="comment">#download_url = &quot;https:&quot; + str(soup.div.ul.find(href=&quot;#&quot;)).split(&quot;href=&#x27;&quot;)[-1].split(&quot;.pdf&quot;)[0] + &quot;.pdf&quot; #寻找出存放该文献的pdf资源地址（该检索已失效）</span></span><br><span class="line">        <span class="keyword">if</span> soup.iframe == <span class="literal">None</span>:</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;https&quot;</span> <span class="keyword">in</span> soup.embed.attrs[<span class="string">&quot;src&quot;</span>]:</span><br><span class="line">                download_url = soup.embed.attrs[<span class="string">&quot;src&quot;</span>]</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                download_url = <span class="string">&quot;https:&quot;</span> + soup.embed.attrs[<span class="string">&quot;src&quot;</span>]</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">if</span> <span class="string">&quot;https&quot;</span> <span class="keyword">in</span> soup.iframe.attrs[<span class="string">&quot;src&quot;</span>]:</span><br><span class="line">                    download_url = soup.iframe.attrs[<span class="string">&quot;src&quot;</span>]</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                download_url = <span class="string">&quot;https:&quot;</span> + soup.iframe.attrs[<span class="string">&quot;src&quot;</span>]</span><br><span class="line">        <span class="built_in">print</span>(line + <span class="string">&quot; is downloading...\n  --The download url is: &quot;</span> + download_url)</span><br><span class="line">        download_r = requests.get(download_url, headers = head)</span><br><span class="line">        download_r.raise_for_status()</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(path + line.replace(<span class="string">&quot;/&quot;</span>,<span class="string">&quot;_&quot;</span>) + <span class="string">&quot;.pdf&quot;</span>, <span class="string">&quot;wb+&quot;</span>) <span class="keyword">as</span> temp:</span><br><span class="line">            temp.write(download_r.content)</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;error.txt&quot;</span>, <span class="string">&quot;a+&quot;</span>) <span class="keyword">as</span> error:</span><br><span class="line">            error.write(line + <span class="string">&quot; occurs error!\n&quot;</span>)</span><br><span class="line">        <span class="keyword">with</span> <span class="built_in">open</span>(path + line.replace(<span class="string">&quot;/&quot;</span>,<span class="string">&quot;_&quot;</span>) + <span class="string">&quot;.txt&quot;</span>, <span class="string">&quot;w&quot;</span>) <span class="keyword">as</span> temp:</span><br><span class="line">            temp.write(<span class="string">&quot;Can&#x27;t Download!&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        download_url = <span class="string">&quot;&quot;</span></span><br><span class="line">        <span class="built_in">print</span>(line + <span class="string">&quot; download successfully.\n&quot;</span>)</span><br><span class="line">f.close()</span><br></pre></td></tr></table></div></figure>
+
+<p>这个代码非常简单，也非常脆弱，比如下载期间的断线等异常情况没有处理，爬虫没有做随机时间设置，容易被封ip，对下载不了的文献也只是简单处理了一下，但没有记录失败原因，因为有可能并不是因为没有文章而失败，也可能是因为网络波动导致失败；</p>
+<p>但是，至少这个代码能成功运行下载到这些文献。只需要提供一个doi的文件即可。</p>
+<p>在这个脚本中，额外生成了一个error.txt，里面会记录哪些paper,此外，为了下一步进行命名，我们将下载失败的文章也创建了一个txt文件。（当然其实从后面的脚本来看，也可以不需要创建新的txt，可能只是为了好看。）</p>
+<p>拿到paper之后，重命名就容易多了，就按照匹配规则，直接批量给某个文件夹的文件命名罢了。</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">import</span> xlrd</span><br><span class="line"></span><br><span class="line">dirpath = <span class="string">&#x27;./&#x27;</span> <span class="comment">#输出文件夹</span></span><br><span class="line">datapath = <span class="string">&#x27;./namesheet.xlsx&#x27;</span> <span class="comment">#命名表路径</span></span><br><span class="line"></span><br><span class="line">x1 = xlrd.open_workbook(datapath) <span class="comment">#读取excel</span></span><br><span class="line">sheet1 = x1.sheet_by_name(<span class="string">&quot;Sheet1&quot;</span>) <span class="comment">#读取sheet1</span></span><br><span class="line"></span><br><span class="line">idlist = sheet1.col_values(<span class="number">0</span>) <span class="comment">#存放第一列</span></span><br><span class="line">xylist = sheet1.col_values(<span class="number">1</span>) <span class="comment">#存放第二列</span></span><br><span class="line"></span><br><span class="line">file_names = os.listdir(dirpath)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> file_names:</span><br><span class="line">    <span class="built_in">id</span> = i[:-<span class="number">4</span>] <span class="comment">#截取前18位</span></span><br><span class="line">    back = i[-<span class="number">4</span>:]</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">id</span> <span class="keyword">in</span> idlist:</span><br><span class="line">        xy = xylist[idlist.index(<span class="built_in">id</span>)]</span><br><span class="line">        <span class="comment">#print(xy)</span></span><br><span class="line">        os.renames(os.path.join(dirpath, i), os.path.join(dirpath, <span class="built_in">str</span>(xy) + back)) <span class="comment">#重命名</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;Not Here!&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<p>这里因为是特殊需要，要命名成论文的顺序.pdf/txt，这里可以通过替换namesheet.xlsx这个文件中的键值对实现任意的命名。当然，目前的脚本有改善的余地，比如既然命名规则是固定的，那么就不需要额外创造这个namesheet文件，直接用上面输出pdf时候的doi组合成名字，然后直接用字典存键值对就行，甚至也可以在上面输出pdf的时候加上循环，完成从下载到命名一步操作。</p>
+<p>ok，到这里为止，第一个需求基本解决了，第二个需求稍微复杂一点，但实现思路类似，留在下一篇博客来讲吧。</p>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://biobrick.github.io">Chong Yin</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://biobrick.github.io/2021/12/07/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%B4%A7%E6%80%A5%E9%9C%80%E6%B1%82%EF%BC%88%E4%B8%8A%E7%AF%87%EF%BC%89/">https://biobrick.github.io/2021/12/07/%E4%B8%8D%E5%AE%8C%E7%BE%8E%E7%9A%84%E7%B4%A7%E6%80%A5%E9%9C%80%E6%B1%82%EF%BC%88%E4%B8%8A%E7%AF%87%EF%BC%89/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><nav class="post-paginator paginator"><div class="paginator-next"><a class="paginator-next__link" href="/2021/12/04/KM%E7%94%9F%E5%AD%98%E5%88%86%E6%9E%90/"><span class="paginator-prev__text">KM生存分析</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/BIOBRICK/" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">3</div><div class="sidebar-ov-state-item__name">归档</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2021</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Chong Yin</span></div><div><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
