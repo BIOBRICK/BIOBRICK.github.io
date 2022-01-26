@@ -725,7 +725,7 @@ kbd {
   width: 100%;
   font-size: 18px;
   background-color: #2d2e30;
-  height: 80vh;
+  height: 30vh;
 }
 .header-inner--bgcolor {
   background-color: #333;
@@ -2331,12 +2331,12 @@ kbd {
   font-size: 0.9em;
   color: #999;
 }
-@media (min-width: 1138px) {
+@media (min-width: 1170px) {
   .header-nav-inner {
-    width: 1138px;
+    width: 1170px;
   }
   .main-inner {
-    width: 1138px;
+    width: 1170px;
   }
 }
 @media (min-width: 991.98px) {
